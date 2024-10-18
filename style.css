@@ -563,6 +563,11 @@ span {
     resize: none;
 }
 
+#number::-webkit-outer-spin-button,
+#number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
 #contact form textarea {
     height: 30rem;
 }
